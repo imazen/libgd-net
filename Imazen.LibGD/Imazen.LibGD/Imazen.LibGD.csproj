@@ -39,7 +39,126 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="..\..\swig_generated_csharp\gdAffineStandardMatrix.cs">
+      <Link>SWIG\gdAffineStandardMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdCropMode.cs">
+      <Link>SWIG\gdCropMode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdFont.cs">
+      <Link>SWIG\gdFont.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdFTStringExtra.cs">
+      <Link>SWIG\gdFTStringExtra.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdImage.cs">
+      <Link>SWIG\gdImage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdInterpolationMethod.cs">
+      <Link>SWIG\gdInterpolationMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdPaletteQuantizationMethod.cs">
+      <Link>SWIG\gdPaletteQuantizationMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdPixelateMode.cs">
+      <Link>SWIG\gdPixelateMode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdPoint.cs">
+      <Link>SWIG\gdPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdPointF.cs">
+      <Link>SWIG\gdPointF.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdRect.cs">
+      <Link>SWIG\gdRect.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdScatter.cs">
+      <Link>SWIG\gdScatter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdSink.cs">
+      <Link>SWIG\gdSink.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\gdSource.cs">
+      <Link>SWIG\gdSource.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\libgd.cs">
+      <Link>SWIG\libgd.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\libgdPINVOKE.cs">
+      <Link>SWIG\libgdPINVOKE.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_a_3__float.cs">
+      <Link>SWIG\SWIGTYPE_p_a_3__float.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_double.cs">
+      <Link>SWIG\SWIGTYPE_p_double.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_FILE.cs">
+      <Link>SWIG\SWIGTYPE_p_FILE.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_f_double__double.cs">
+      <Link>SWIG\SWIGTYPE_p_f_double__double.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_f_int_p_q_const__char_va_list__void.cs">
+      <Link>SWIG\SWIGTYPE_p_f_int_p_q_const__char_va_list__void.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_f_p_struct_gdImageStruct_int__int.cs">
+      <Link>SWIG\SWIGTYPE_p_f_p_struct_gdImageStruct_int__int.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_f_p_void_p_char_int__int.cs">
+      <Link>SWIG\SWIGTYPE_p_f_p_void_p_char_int__int.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_f_p_void_p_q_const__char_int__int.cs">
+      <Link>SWIG\SWIGTYPE_p_f_p_void_p_q_const__char_int__int.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdFTStringExtraPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdFTStringExtraPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdIOCtx.cs">
+      <Link>SWIG\SWIGTYPE_p_gdIOCtx.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdIOCtxPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdIOCtxPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdPointFPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdPointFPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdPointPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdPointPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdRectPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdRectPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdScatterPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdScatterPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdSinkPtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdSinkPtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_gdSourcePtr.cs">
+      <Link>SWIG\SWIGTYPE_p_gdSourcePtr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_int.cs">
+      <Link>SWIG\SWIGTYPE_p_int.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_p_gdImageStruct.cs">
+      <Link>SWIG\SWIGTYPE_p_p_gdImageStruct.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_p_int.cs">
+      <Link>SWIG\SWIGTYPE_p_p_int.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_p_unsigned_char.cs">
+      <Link>SWIG\SWIGTYPE_p_p_unsigned_char.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_unsigned_char.cs">
+      <Link>SWIG\SWIGTYPE_p_unsigned_char.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_unsigned_short.cs">
+      <Link>SWIG\SWIGTYPE_p_unsigned_short.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig_generated_csharp\SWIGTYPE_p_void.cs">
+      <Link>SWIG\SWIGTYPE_p_void.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
