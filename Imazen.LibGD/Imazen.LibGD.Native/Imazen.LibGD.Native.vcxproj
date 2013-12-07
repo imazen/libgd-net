@@ -13,9 +13,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\swig\libgd_swig_wrap.c" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\gd-libgd\windows\libgd_swig.i" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EBCB720F-58E3-437A-8D89-E0F40165CE6E}</ProjectGuid>
     <RootNamespace>ImazenLibGDNative</RootNamespace>
@@ -44,7 +41,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Users\nathanael\Documents\libgd-net\pre_built;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -53,6 +52,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libgd.a;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

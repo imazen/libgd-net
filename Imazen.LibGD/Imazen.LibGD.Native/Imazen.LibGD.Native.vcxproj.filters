@@ -22,9 +22,4 @@
       <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\gd-libgd\windows\libgd_swig.i">
-      <Filter>Generated Files</Filter>
-    </None>
-  </ItemGroup>
 </Project>
