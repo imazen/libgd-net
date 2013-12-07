@@ -257,7 +257,7 @@ SWIGEXPORT void SWIGSTDCALL SWIGRegisterStringCallback_libgd(SWIG_CSharpStringHe
 
 
  /* Includes the header in the wrapper code */
- #include "../src/gd.h"
+ #include "../../gd-libgd/src/gd.h"
  
 
 #ifdef __cplusplus
